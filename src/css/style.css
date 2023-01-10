@@ -9,10 +9,11 @@ body{
 }
 .container{
   height: 100vh;
-  background-color: #FF7978;
+  background-color: #ff78786e;
   display: flex;
   align-items: center;
   justify-content: center;
+  height: auto;
 }
 span{
   font-weight: bolder;
@@ -37,6 +38,7 @@ div.conteudo{
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  min-width: 500px;
 }
 .box{
   background-color: rgb(96, 85, 165);
@@ -85,6 +87,7 @@ div.form input{
   align-items: center;
   text-align: center;
   margin: 0 auto; 
+  min-width: 500px;
 }
 div.texto01{
   width: 50%;
@@ -99,9 +102,27 @@ div.texto01{
 }
 p.botton{
   color: lightgray;
+  font-size: 12px;
 }
 span.red{
   color: red;
   font-weight: bold;
   font-size: 16px;
+}
+@media (max-width:600px){
+.container{
+  flex-wrap: wrap;
+}
+.texto{
+  height: auto;
+  min-height: 600px;
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto; 
+  min-width: 500px;
+}
 }
