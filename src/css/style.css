@@ -126,3 +126,11 @@ span.red{
   min-width: 500px;
 }
 }
+.active{
+  display: inline;
+  color: red;
+  font-size: 1rem;
+}
+.inv{
+  display: none;
+}
