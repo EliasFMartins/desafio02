@@ -5,15 +5,19 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 body{
-  
+  width: 100%;
+  height: 100%;
+  justify-content: center;
   height: calc(auto + 50px);
-
-}
-.container{
-  max-width: 900px;
-  height: 100vh;
+  display: flex;
+  align-items: center;
   background-color: #ff7878;
   background-image: url(../img/bg-intro-desktop.png);
+}
+.container{
+  max-width: 1200px;
+  height: 100vh;
+ 
   display: flex;
   align-items: center;
   justify-content: center;
