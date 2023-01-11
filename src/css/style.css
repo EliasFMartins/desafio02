@@ -14,6 +14,7 @@ body{
   background-image: url(../img/bg-intro-desktop.png);
 }
 .container{
+  width: auto;
   max-width: 1200px;
   height: 100vh;
  
