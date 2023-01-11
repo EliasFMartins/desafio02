@@ -99,14 +99,12 @@ div.form p{
 }
 .texto{
   height: 100vh;
-  width: 50vw;
+  width: 50%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin: 0 auto; 
-  min-width: 500px;
 }
 div.texto01{
   width: 65%;
@@ -138,6 +136,11 @@ span.red{
   font-size: 15px;
 }
 @media (max-width:900px){
+.conteudo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .container{
   width: 90vw;
   flex-wrap: wrap;
