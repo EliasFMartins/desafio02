@@ -77,10 +77,12 @@ div.form{
 div.form input{
   height: 3rem;
   border-radius: 6px;
-  margin-bottom: 15px;
   padding: 20px;
   border: 1px solid lightgrey;
   width: 100%;
+}
+div.form p{
+  margin-bottom: 15px;
 }
 .alinhamento{
   border-radius: 6px;
@@ -103,7 +105,6 @@ div.form input{
 }
 div.texto01{
   width: 65%;
-
   height: 35%;
   color: white;
   display: flex;
