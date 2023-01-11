@@ -5,9 +5,9 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 body{
-  width: 100%;
+  width: 100vw;
   justify-content: center;
-  height: calc(auto + 50px);
+  height:auto;
   display: flex;
   align-items: center;
   background-color: #ff7878;
