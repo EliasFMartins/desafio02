@@ -40,24 +40,4 @@ btn.addEventListener('click', e => {
 
 
 
-class validar {
-  constructor() {
-    validanome()
-    validasname()
-    validaEmail()
-    validaSenha()
-  }
 
-  validanome = e => {
-
-  }
-  validasname = e => {
-
-  }
-  validaEmail = e => {
-
-  }
-  validaSenha = e => {
-
-  }
-}

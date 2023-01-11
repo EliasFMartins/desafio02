@@ -23,6 +23,7 @@ span{
   font-weight: bolder;
 }
 button{
+  font-weight: 600;
   background-color:  #38cc8c;
   width: 88%;
   height: 50px;
@@ -36,6 +37,7 @@ button{
   transition: 1s;
 }
 button:hover{
+  
   background-color:green ;
   border-bottom: solid 2px  #38cc8c;
 }
@@ -60,7 +62,7 @@ div.conteudo{
   justify-content: center;
   color: white;
   margin-bottom: 20px;
-  box-shadow: 2px 6px 2px rgb(110, 108, 108);
+  box-shadow: 2px 6px 6px rgb(110, 108, 108);
 }
 
 div.form{
@@ -88,7 +90,7 @@ div.form input{
   align-items: center;
   justify-content: center;
   min-height: 500px;
-  box-shadow: 2px 6px 2px rgb(110, 108, 108);
+  box-shadow: 2px 6px 6px rgb(110, 108, 108);
 }
 .texto{
   height: 100vh;
@@ -102,19 +104,29 @@ div.form input{
   min-width: 500px;
 }
 div.texto01{
-  width: 50%;
-  text-align: justify;
+  width: 60%;
+  text-align: left;
   height: 35%;
   color: white;
-  z-index: 100;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
 
 }
+div.texto01 p{
+  font-weight: 500;
+}
+div.texto01 h1{
+  font-size: 3rem;
+}
 p.botton{
+  width: 85%;
   color: lightgray;
-  font-size: 12px;
+  font-weight: 500
+  ;
+  font-size: 1rem;
+  text-align: center;
+
 }
 span.red{
   color: red;
