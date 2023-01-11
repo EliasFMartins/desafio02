@@ -42,6 +42,7 @@ button:hover{
 }
 
 div.conteudo{
+  padding: 12% 3%;
   width: 50%;
   height: 100vh;
   display: flex;
@@ -63,27 +64,32 @@ div.conteudo{
   margin-bottom: 20px;
   box-shadow: 2px 6px 2px #6e6c6c6c;
 }
+div.form{
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
 
 
 div.form input{
   height: 3rem;
   border-radius: 6px;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
   padding: 20px;
   border: 1px solid lightgrey;
   width: 100%;
 }
 .alinhamento{
   border-radius: 6px;
-  width: auto;
+  width: 80%;
   height: auto;
   background-color: rgb(255, 255, 255);
-  padding: 40px;
-  /* min-height: 400px; */
-  
+  padding: 4%;
+  box-shadow: 2px 6px 2px #6e6c6c6c;
 }
-
-
 .texto{
   height: 100vh;
   width: 50vw;
@@ -96,7 +102,7 @@ div.form input{
   min-width: 500px;
 }
 div.texto01{
-  width: 60%;
+  width: 65%;
 
   height: 35%;
   color: white;
@@ -117,15 +123,15 @@ div.texto01 h1{
 p.botton{
   color: lightgray;
   font-weight: 500;
-  font-size: 1rem;
+  font-size: 0.9rem;
   text-align: center;
 }
 span.red{
   color: red;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 15px;
 }
-@media (max-width:600px){
+@media (max-width:900px){
 .container{
   flex-wrap: wrap;
 }
@@ -141,17 +147,14 @@ span.red{
   margin: 0 auto; 
   min-width: 500px;
 }
+.box{
+  width: 90%;
+}
 .alinhamento{
   border-radius: 6px;
-  display: flex;
-  flex-direction: column;
-  width: 80%;
+  width: 90%;
   height: auto;
   background-color: rgb(255, 255, 255);
-  align-items: center;
-  justify-content: center;
-  min-height: 500px;
-  margin-bottom: 90px;
 }
 }
 .active{
@@ -159,6 +162,6 @@ span.red{
   color: red;
   font-size: 0.7rem;
 }
-p.inv{
+.inv{
   visibility: hidden;
 }
