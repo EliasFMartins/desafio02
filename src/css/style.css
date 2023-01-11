@@ -5,21 +5,25 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 body{
-  background-image: url(../img/bg-intro-desktop.png);
+  
+  height: calc(auto + 50px);
+
 }
 .container{
   height: 100vh;
-  background-color: #ff78786e;
+  background-color: #ff7878;
+  background-image: url(../img/bg-intro-desktop.png);
   display: flex;
   align-items: center;
   justify-content: center;
   height: auto;
+  
 }
 span{
   font-weight: bolder;
 }
 button{
-  background-color:  hsl(154, 59%, 51%);
+  background-color:  #38cc8c;
   width: 88%;
   height: 50px;
   border-radius: 5px;
@@ -29,6 +33,11 @@ button{
   color: white;
   font-weight: bolder;
   border-bottom: solid 2px green; 
+  transition: 1s;
+}
+button:hover{
+  background-color:green ;
+  border-bottom: solid 2px  #38cc8c;
 }
 
 div.conteudo{
@@ -59,11 +68,12 @@ div.form{
   width: 90%;
   border-radius: 12px;
   padding:10px;
+  height: auto;
 }
 div.form input{
   height: 40px;
   border-radius: 6px;
-  margin-bottom: 15px;
+  margin-bottom: 30px;
   padding: 20px;
   border: 1px solid lightgrey;
   width: 100%;
@@ -73,10 +83,12 @@ div.form input{
   display: flex;
   flex-direction: column;
   width: 80%;
-  height: 70%;
+  height: auto;
   background-color: rgb(255, 255, 255);
   align-items: center;
   justify-content: center;
+  min-height: 500px;
+  box-shadow: 2px 6px 2px rgb(110, 108, 108);
 }
 .texto{
   height: 100vh;
@@ -125,12 +137,24 @@ span.red{
   margin: 0 auto; 
   min-width: 500px;
 }
+.alinhamento{
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: auto;
+  background-color: rgb(255, 255, 255);
+  align-items: center;
+  justify-content: center;
+  min-height: 500px;
+  margin-bottom: 90px;
+}
 }
 .active{
-  display: inline;
+  visibility: visible;
   color: red;
-  font-size: 1rem;
+  font-size: 0.7rem;
 }
-.inv{
-  display: none;
+p.inv{
+  visibility: hidden;
 }

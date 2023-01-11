@@ -12,25 +12,25 @@ btn.addEventListener('click', e => {
   if (nome.value.length < 3) {
     const pname = document.querySelector('.pname')
     pname.innerHTML = 'Nome não pode ter  menos doque 3 caracteres'
-    pname.classList.remove('invi')
+    pname.classList.remove('inv')
     flag = false
   }
   if (snome.value.length < 3) {
     const psname = document.querySelector('.psname')
     psname.innerHTML = 'Sobrenome não pode ter menos doque 3 caracteres'
-    psname.classList.remove('invi')
+    psname.classList.remove('inv')
     flag = false
   }
   if (email.value.length < 9) {
     const pemail = document.querySelector('.pemail');
     pemail.innerHTML = 'Email não pode ter menos de 9 caracteres'
-    pemail.classList.remove('invi')
+    pemail.classList.remove('inv')
     flag = false
   }
   if (senha.value.length < 5) {
     const psenha = document.querySelector('.psenha');
     psenha.innerHTML = 'Senha não pode ser menor doque 5 caracteres'
-    psenha.classList.remove('invi')
+    psenha.classList.remove('inv')
     flag = false
   }
   if (flag) {
