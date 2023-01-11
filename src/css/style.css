@@ -139,6 +139,7 @@ span.red{
 }
 @media (max-width:900px){
 .container{
+  width: 90vw;
   flex-wrap: wrap;
 }
 .texto{
@@ -154,11 +155,11 @@ span.red{
   min-width: 500px;
 }
 .box{
-  width: 90%;
+  width: 80vw;
 }
 .alinhamento{
   border-radius: 6px;
-  width: 90%;
+  width: 80vw;
   height: auto;
   background-color: rgb(255, 255, 255);
 }
