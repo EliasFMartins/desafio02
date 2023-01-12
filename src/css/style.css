@@ -137,13 +137,12 @@ span.red{
 }
 @media (max-width:900px){
 .conteudo{
-  display: flex;
+  width: 100vw;
   align-items: center;
   justify-content: center;
 }
 .container{
   width: 100vw;
-
   display: flex;
   justify-content: center;
   align-items: center;
@@ -158,14 +157,14 @@ span.red{
   justify-content: center;
   align-items: center;
   text-align: center;
-  
 }
 .box{
-  width: 95vw;
+  width: 85vw;
 }
 .alinhamento{
+  
   border-radius: 6px;
-  width: 95vw;
+  width: 85vw;
   height: auto;
   background-color: rgb(255, 255, 255);
 }
