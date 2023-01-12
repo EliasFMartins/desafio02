@@ -128,11 +128,6 @@ span.red{
   font-size: 15px;
 }
 @media (max-width:900px){
-.conteudo{
-  width: 100vw;
-  align-items: center;
-  justify-content: center;
-}
 .container{
   width: 100vw;
   display: flex;
@@ -151,11 +146,11 @@ span.red{
   text-align: center;
 }
 .box{
-  width: 85vw;
+  width: 95vw;
 }
 .alinhamento{
   border-radius: 6px;
-  width: 85vw;
+  width: 95vw;
   height: auto;
   background-color: rgb(255, 255, 255);
 }

@@ -8,7 +8,7 @@ btn.addEventListener('click', e => {
   const senha = document.querySelector('#senha');
   e.preventDefault()
   console.log('oie')
-  var flag = true
+  let flag = true
   if (nome.value.length < 3) {
     const pname = document.querySelector('.pname')
     pname.innerHTML = 'Nome não pode ter  menos doque 3 caracteres'
