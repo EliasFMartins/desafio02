@@ -7,17 +7,16 @@ btn.addEventListener('click', e => {
   const email = document.querySelector('#email');
   const senha = document.querySelector('#senha');
   e.preventDefault()
-  console.log('oie')
   let flag = true
   if (nome.value.length < 3) {
     const pname = document.querySelector('.pname')
-    pname.innerHTML = 'Nome não pode ter  menos doque 3 caracteres'
+    pname.innerHTML = 'Nome não pode ter  menos  de 3 caracteres'
     pname.classList.remove('inv')
     flag = false
   }
   if (snome.value.length < 3) {
     const psname = document.querySelector('.psname')
-    psname.innerHTML = 'Sobrenome não pode ter menos doque 3 caracteres'
+    psname.innerHTML = 'Sobrenome não pode ter menos de 3 caracteres'
     psname.classList.remove('inv')
     flag = false
   }
